@@ -1,0 +1,228 @@
+#JUDGE
+In a WAN, the communication subnet primarily consists of hosts and routers.
+#OPTIONS
+T
+F
+#CORRECT
+2
+#END
+
+#JUDGE
+A protocol defines the rules for how a lower layer provides services to an upper layer.
+#OPTIONS
+T
+F
+#CORRECT
+2
+#END
+
+#JUDGE
+In optical fiber communication, single-mode fiber has a thinner core diameter than multi-mode fiber, making it more suitable for long-distance transmission.
+#OPTIONS
+T
+F
+#CORRECT
+2
+#END
+
+#JUDGE
+A key advantage of Manchester Encoding is its self-clocking mechanism, which allows the receiver to recover the clock signal from the signal transitions.
+#OPTIONS
+T
+F
+#CORRECT
+1
+#END
+
+#JUDGE
+The Piggybacking technique involves delaying outgoing acknowledgments (ACKs) so that they can be hooked onto the next outgoing data frame.
+#OPTIONS
+T
+F
+#CORRECT
+1
+#END
+
+#JUDGE
+In the Stop-and-Wait protocol designed for a noisy channel (Protocol 3), a 1-bit sequence number (0 and 1) is sufficient to distinguish between a new frame and a retransmission.
+#OPTIONS
+T
+F
+#CORRECT
+1
+#END
+
+#JUDGE
+The Hidden Terminal Problem in wireless networks occurs when a node is visible to a wireless access point (AP), but not visible to other nodes communicating with that AP.
+#OPTIONS
+T
+F
+#CORRECT
+1
+#END
+
+#JUDGE
+Split Horizon is a technique used in Link State routing to prevent routing loops.
+#OPTIONS
+T
+F
+#CORRECT
+2
+#END
+
+#JUDGE
+The Nagle's Algorithm is used to solve the "Silly Window Syndrome" by delaying the sending of small packets until enough data is accumulated or previous data is acknowledged.
+#OPTIONS
+T
+F
+#CORRECT
+1
+#END
+
+#JUDGE
+With the MIME protocol, SMTP can directly transmit ASCII and non-ASCII data.
+#OPTIONS
+T
+F
+#CORRECT
+2
+#END
+
+#JUDGE
+IPsec Tunnel Mode encapsulates the entire original IP packet inside a new IP packet, whereas Transport Mode only encrypts the payload.
+#OPTIONS
+T
+F
+#CORRECT
+1
+#END
+
+#JUDGE
+A Packet Filtering Firewall inspects the content of the application data to decide whether to drop the packet.
+#OPTIONS
+T
+F
+#CORRECT
+2
+#END
+
+#CHOICE
+In the OSI model, which layer is responsible for "Routing" and "Congestion Control"?
+#OPTIONS
+Transport Layer
+Data Link Layer
+Network Layer
+Session Layer
+#CORRECT
+3
+#END
+
+#CHOICE
+In a constellation diagram, the distance of a point from the origin represents the ______ of the signal, while the angle of the point on the circle represents the ______ of the signal.
+#OPTIONS
+Frequency; Phase
+Amplitude; Phase
+Phase; Amplitude
+Frequency; Amplitude
+#CORRECT
+2
+#END
+
+#CHOICE
+You are designing a Hamming Code. If you want to detect single-bit errors in a 7-bit data word (ASCII character), what is the minimum Hamming distance required for the code?
+#OPTIONS
+1
+2
+3
+4
+#CORRECT
+2
+#END
+
+#CHOICE
+A channel has a bit rate of 4 kbps and a propagation delay of 25 msec. The frame size is 1000 bits. What is the efficiency of the Stop-and-Wait protocol? (Ignore ACK transmission time and processing time)
+#OPTIONS
+83%
+33%
+50%
+91%
+#CORRECT
+1
+#END
+
+#CHOICE
+Why does IEEE 802.11 (Wi-Fi) use CSMA/CA instead of CSMA/CD?
+#OPTIONS
+Because it is difficult to detect collisions while transmitting on a wireless radio interface.
+Because wireless networks are full-duplex and collisions do not occur.
+Because CSMA/CA is faster and has less overhead than CSMA/CD.
+Because RTS/CTS packets are required for all wireless transmissions.
+#CORRECT
+1
+#END
+
+#CHOICE
+How does a Transparent Bridge (or Switch) populate its forwarding table?
+#OPTIONS
+By flooding packets to all ports and waiting for a reply.
+By examining the Source MAC Address of incoming frames.
+By examining the Destination MAC Address of incoming frames.
+By using the Spanning Tree Protocol to query neighbors.
+#CORRECT
+2
+#END
+
+#CHOICE
+A 1-km long cable operates at 10 Mbps. The propagation speed is 200,000 km/s. What is the minimum frame size required for the CSMA/CD protocol to function correctly?
+#OPTIONS
+50 bits
+64 bits
+100 bits
+512 bits
+#CORRECT
+3
+#END
+
+#CHOICE
+A TCP machine is sending windows of 65535 bytes over a 1 Gbps channel that has a 10 ms one-way delay. What is the maximum throughput achievable for a single connection? (Assume no errors)
+#OPTIONS
+1 Gbps
+26 Mbps
+65 Mbps
+3 Mbps
+#CORRECT
+2
+#END
+
+#CHOICE
+Which HTTP method is typically used to request the server to accept data enclosed in the request message body?
+#OPTIONS
+GET
+HEAD
+POST
+DELETE
+#CORRECT
+3
+#END
+
+#CHOICE
+Which DNS resource record type would you query to find the "canonical name" (real name) of a host if you only have its alias?
+#OPTIONS
+NS
+CNAME
+MX
+AAAA
+#CORRECT
+2
+#END
+
+#CHOICE
+In the context of IPsec, which protocol provides confidentiality (encryption) for the data payload?
+#OPTIONS
+AH
+ESP
+ICMP
+DNS
+#CORRECT
+2
+#END
